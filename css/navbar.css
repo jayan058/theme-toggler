@@ -105,4 +105,13 @@
 
 .nav__third-part {
   display: none;
+}
+
+.theme-toggler {
+  height: 40px;
+  width: 40px;
+  font-size: 40px;
+  position: relative;
+  top: -10px;
+  left: -10px;
 }/*# sourceMappingURL=navbar.css.map */

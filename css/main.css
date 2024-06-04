@@ -310,6 +310,15 @@
   display: none;
 }
 
+.theme-toggler {
+  height: 40px;
+  width: 40px;
+  font-size: 40px;
+  position: relative;
+  top: -10px;
+  left: -10px;
+}
+
 :root {
   --nav-background:#FFFFFF;
   --nav-font-color:#000000;
@@ -793,6 +802,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  border: 1px solid black;
 }
 
 @media (max-width: 662px) {
@@ -802,16 +812,22 @@
     align-items: center;
     height: 100%;
   }
-  .nav__second-part {
+  .theme-toggler {
+    top: 2px;
+    left: 35px;
+    font-size: 30px;
+  }
+  .second-part__about {
+    display: none;
+  }
+  .second-part__work {
+    display: none;
+  }
+  .second-part__contact {
     display: none;
   }
   .first-part__biscut-text {
     display: none;
-  }
-  .third-part__black-face {
-    display: block;
-    height: 24px;
-    width: 24px;
   }
   .third-part__menu-button {
     display: block;

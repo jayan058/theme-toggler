@@ -8,7 +8,7 @@
 *{
     margin: 0px;
     padding: 0px;   
-    
+    border: 1px solid black;
 }
 @media(max-width:662px){
     .get-in-touch__perfrom-actions{
@@ -17,18 +17,26 @@
         align-items: center;
         height: 100%;
     }
+    .theme-toggler{
+        top: 2px;
+        left: 35px;
+        font-size: 30px;
+    }
+
     
-    .nav__second-part{
-        display: none;
+    .second-part__about{
+          display: none;
+    }
+    .second-part__work{
+    display: none;
+    }
+    .second-part__contact{
+      display: none;
     }
     .first-part__biscut-text{
         display: none;
     }
-    .third-part__black-face{
-        display: block;
-        height: 24px;
-        width: 24px;
-    }
+  
     .third-part__menu-button{
         display: block;
         height: 28px;
