@@ -1,13 +1,13 @@
 @import 'base/global';
-@import './introduction/introduction.scss';
-@import './navbar/navbar.scss';
-@import './projectsection/projectsection.scss';
-@import './tools-and-application/tools-and-application.scss';
-@import './footer/footer.scss';
+@import './introduction/introduction';
+@import './navbar/navbar';
+@import './projectsection/projectsection';
+@import './tools-and-application/tools-and-application';
+@import './footer/footer';
 
 *{
     margin: 0px;
-    padding: 0px;   
+    padding: 0px;
 
 }
 @media(max-width:662px){

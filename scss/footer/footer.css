@@ -1,0 +1,93 @@
+:root {
+  --nav-background:#FFFFFF;
+  --nav-font-color:#000000;
+  --primary-font-family:Montserrat, sans-serif;
+  --secondary-font-family:Roboto, sans-serif;
+  --hello-button-font-color:#FFFFFF;
+  --aboutme-font-color:#2C2C2E;
+  --mycompany-font-color:#3040E5;
+  --intro-background-color:#FFFFFF;
+  --social-icon-color:#000000;
+  --project-contanior-background-color:#F4F6FB;
+  --project-category-background:#F4F6FB;
+  --project-description:#2C2C2E;
+  --project-logo-contanior-background:#FFFFFF;
+  --tool-name-color:#000000;
+  --tool-description-color:#2C2C2E;
+  --seperator-color:#DEDEDE;
+  --load-more-background-color:#F2F2F7;
+  --nar-bar-menu-font-color:#000000;
+  --nar-bar-menu-background-color:#F2F2F7;
+  --footer-background-color:#F4F6FB;
+}
+
+.dark-mode {
+  --nav-background:#000000;
+  --nav-font-color:#FFFFFF;
+  --secondary-font-family:Roboto, sans-serif;
+  --primary-font-family:Montserrat, sans-serif;
+  --hello-button-font-color:#FFFFFF;
+  --aboutme-font-color:rgba(255, 255, 255, 0.7411764706);
+  --mycompany-font-color:#FFFFFF;
+  --intro-background-color:#050519;
+  --social-icon-color:#FFFFFF;
+  --project-contanior-background-color:#2A2A36;
+  --project-category-background:#282C34;
+  --project-description:#D9D9D9;
+  --project-logo-contanior-background:#FFFFFF;
+  --tool-name-color:#FFFFFF;
+  --tool-description-color:#D9D9D9;
+  --seperator-color:#6F7279;
+  --load-more-background-color:#333B4A;
+  --nar-bar-menu-font-color:#FFFFFF;
+  --nar-bar-menu-background-color:#282C34;
+  --footer-background-color:#282C34;
+}
+
+.contanior__footer {
+  width: 100%;
+  background-color: var(--footer-background-color);
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  gap: 20px;
+  padding-top: 50px;
+  background-color: var(--footer-background-color);
+}
+
+.footer__footer-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-text__business-enquiry {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.social-icons__my-socials {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-text__get-in-touch {
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--nav-font-color);
+}
+
+.business-enquiry__business-enquiry-text {
+  font-family: var(--primary-font-family);
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--nav-font-color);
+}
