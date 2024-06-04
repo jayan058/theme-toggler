@@ -1,0 +1,156 @@
+:root {
+  --nav-background:#FFFFFF;
+  --nav-font-color:#000000;
+  --primary-font-family:Montserrat, sans-serif;
+  --secondary-font-family:Roboto, sans-serif;
+  --hello-button-font-color:#FFFFFF;
+  --aboutme-font-color:#2C2C2E;
+  --mycompany-font-color:#3040E5;
+  --intro-background-color:#FFFFFF;
+  --social-icon-color:#000000;
+  --project-contanior-background-color:#F4F6FB;
+  --project-category-background:#F4F6FB;
+  --project-description:#2C2C2E;
+  --project-logo-contanior-background:#FFFFFF;
+  --tool-name-color:#000000;
+  --tool-description-color:#2C2C2E;
+  --seperator-color:#DEDEDE;
+  --load-more-background-color:#F2F2F7;
+  --nar-bar-menu-font-color:#000000;
+  --nar-bar-menu-background-color:#F2F2F7;
+  --footer-background-color:#F4F6FB;
+}
+
+.dark-mode {
+  --nav-background:#000000;
+  --nav-font-color:#FFFFFF;
+  --secondary-font-family:Roboto, sans-serif;
+  --primary-font-family:Montserrat, sans-serif;
+  --hello-button-font-color:#FFFFFF;
+  --aboutme-font-color:rgba(255, 255, 255, 0.7411764706);
+  --mycompany-font-color:#FFFFFF;
+  --intro-background-color:#050519;
+  --social-icon-color:#FFFFFF;
+  --project-contanior-background-color:#2A2A36;
+  --project-category-background:#282C34;
+  --project-description:#D9D9D9;
+  --project-logo-contanior-background:#FFFFFF;
+  --tool-name-color:#FFFFFF;
+  --tool-description-color:#D9D9D9;
+  --seperator-color:#6F7279;
+  --load-more-background-color:#333B4A;
+  --nar-bar-menu-font-color:#FFFFFF;
+  --nar-bar-menu-background-color:#282C34;
+  --footer-background-color:#282C34;
+}
+
+.contanior__short-intro {
+  align-items: center;
+  height: 812px;
+  padding-top: 70px;
+  padding-bottom: 158px;
+  display: flex;
+  flex-direction: column;
+  height: 584px;
+  gap: 56px;
+  background-color: var(--intro-background-color);
+}
+
+.short-intro__basic-information {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.basic-information__image-contanior {
+  height: 64px;
+  width: 64px;
+  align-self: center;
+}
+
+.basic-information__greeting {
+  font-family: var(--primary-font-family);
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: var(--nav-font-color);
+}
+
+.basic-information__my-role {
+  font-family: var(--primary-font-family);
+  font-weight: 800;
+  font-size: 60px;
+  text-align: center;
+  color: var(--nav-font-color);
+}
+
+.basic-information__about-me {
+  font-family: var(--primary-font-family);
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: var(--aboutme-font-color);
+  width: 50%;
+  align-self: center;
+}
+
+.short-intro__get-in-touch {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.get-in-touch__perfrom-actions {
+  display: flex;
+  width: 320px;
+  height: 40px;
+  gap: 29px;
+}
+
+.about-me__my-company {
+  color: var(--mycompany-font-color);
+  text-decoration: underline;
+}
+
+.hello-button {
+  height: 40px;
+  width: 167px;
+  border-radius: 43.21px;
+  background-color: #3040E5;
+  font-family: var(--secondary-font-family);
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: var(--hello-button-font-color);
+}
+
+.perform-action__download-cv {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.download-cv__download__prompt {
+  font-family: var(--secondary-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--nav-font-color);
+}
+
+.fa-download {
+  font-size: 25px;
+  color: var(--social-icon-color);
+}
+
+.get-in-touch__my-socials {
+  display: flex;
+  gap: 40px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fa-brands {
+  color: var(--social-icon-color);
+  size: 30px;
+  font-size: 25px;
+}/*# sourceMappingURL=introduction.css.map */

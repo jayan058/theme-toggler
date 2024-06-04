@@ -1,0 +1,108 @@
+:root {
+  --nav-background:#FFFFFF;
+  --nav-font-color:#000000;
+  --primary-font-family:Montserrat, sans-serif;
+  --secondary-font-family:Roboto, sans-serif;
+  --hello-button-font-color:#FFFFFF;
+  --aboutme-font-color:#2C2C2E;
+  --mycompany-font-color:#3040E5;
+  --intro-background-color:#FFFFFF;
+  --social-icon-color:#000000;
+  --project-contanior-background-color:#F4F6FB;
+  --project-category-background:#F4F6FB;
+  --project-description:#2C2C2E;
+  --project-logo-contanior-background:#FFFFFF;
+  --tool-name-color:#000000;
+  --tool-description-color:#2C2C2E;
+  --seperator-color:#DEDEDE;
+  --load-more-background-color:#F2F2F7;
+  --nar-bar-menu-font-color:#000000;
+  --nar-bar-menu-background-color:#F2F2F7;
+  --footer-background-color:#F4F6FB;
+}
+
+.dark-mode {
+  --nav-background:#000000;
+  --nav-font-color:#FFFFFF;
+  --secondary-font-family:Roboto, sans-serif;
+  --primary-font-family:Montserrat, sans-serif;
+  --hello-button-font-color:#FFFFFF;
+  --aboutme-font-color:rgba(255, 255, 255, 0.7411764706);
+  --mycompany-font-color:#FFFFFF;
+  --intro-background-color:#050519;
+  --social-icon-color:#FFFFFF;
+  --project-contanior-background-color:#2A2A36;
+  --project-category-background:#282C34;
+  --project-description:#D9D9D9;
+  --project-logo-contanior-background:#FFFFFF;
+  --tool-name-color:#FFFFFF;
+  --tool-description-color:#D9D9D9;
+  --seperator-color:#6F7279;
+  --load-more-background-color:#333B4A;
+  --nar-bar-menu-font-color:#FFFFFF;
+  --nar-bar-menu-background-color:#282C34;
+  --footer-background-color:#282C34;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.contanior {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.third-part__menu-button {
+  display: none;
+}
+
+.contanior__nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 88px;
+  align-items: center;
+  background-color: var(--nav-background);
+  color: var(--nav-font-color);
+}
+
+.third-part__black-face {
+  display: none;
+}
+
+.nav__first-part {
+  display: flex;
+  gap: 12px;
+}
+
+.first-part__biscut-image {
+  height: 50px;
+  width: 50px;
+}
+
+.first-part__biscut-text {
+  width: 98px;
+  height: 36px;
+  font-family: var(--primary-font-family);
+  font-weight: 600;
+  font-size: 22px;
+  align-self: flex-end;
+}
+
+.nav__second-part {
+  display: flex;
+  height: 40px;
+  gap: 56px;
+  font-family: var(--primary-font-family);
+  font-weight: 500;
+  font-size: 16px;
+  align-items: center;
+  justify-self: flex-end;
+}
+
+.nav__third-part {
+  display: none;
+}/*# sourceMappingURL=navbar.css.map */

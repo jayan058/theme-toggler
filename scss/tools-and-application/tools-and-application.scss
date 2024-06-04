@@ -1,0 +1,126 @@
+@import './../base/global';
+.contanior__application-and-tools{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    padding-top: 40px;
+    background-color: var(--intro-background-color);
+    
+}
+.application-and-tools__header{
+    font-family: var(--primary-font-family);
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--nav-font-color);
+
+}
+.app-and-tools-wrapper__all-of-my-top-row-tools,.app-and-tools-wrapper__all-of-my-bottom-row-tools{
+    display: flex;
+    gap: 40px;
+}
+
+.application-and-tools__app-and-tools-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.all-of-my-top-row-tools__indivisual-tools, 
+.all-of-my-bottom-row-tools__indivisual-tools{
+           display: flex;
+           flex-direction: column;
+           justify-content: flex-start;
+           gap: 25px;
+           
+       
+           
+}
+.indivisual-tools__tool-image-and-name{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.tool-image-and-name__image-contanior{
+    height: 68px;
+    width: 68px;
+    border-radius: 71px;
+    box-shadow: 3px 2px 24px 0px #00000017;
+    background-color: #f4f6fb;;
+}
+.image-contanior__tool-image{
+    position: relative;
+    top: 14px;
+    left: 17px;
+}
+.image-contanior-for-git-and-github__git-image{
+          height: 68px;
+          width: 68px;
+          border-radius: 71px;
+       box-shadow: 3px 2px 24px 0px #00000017; 
+          z-index: 2;
+          background-color: #f4f6fb;;
+        
+}
+.image-contanior-for-git-and-github__github-image {
+    height: 68px;
+    width: 68px;
+    border-radius: 71px;
+    box-shadow: 0px 4px 32px 0px #0000001C; 
+    position: relative;
+    left: -29px;
+    background-color: #f4f6fb;;
+   
+}
+
+.tool-image-and-name__image-contanior-for-git-and-github{
+    display: flex;
+    
+}
+.github-image,.git-image{
+    position: relative;
+    top: 14px;
+    left: 12px;
+}
+.github-image{
+    height: 38px;
+}
+.application-and-tools__app-and-tools-wrapper{
+    justify-content: center;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.tool-image-and-name__tool-name{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--primary-font-family);
+    color: var(--tool-name-color);
+   
+}
+.indivisual-tools__tool-description{
+    font-family: var(--primary-font-family);
+    padding-bottom: 20px;
+    padding-right: 20px;
+    color: var(--tool-description-color);
+}
+.app-and-tools-wrapper__seperator{
+    height: 1px;
+    background-color: var(--seperator-color);
+}
+.app-and-tools-wrapper__load-more-app-and-tools{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 40px;
+    border-radius: 43px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 15.71px;
+    background-color: var(--load-more-background-color);
+    height: 44px;
+    align-items: center;
+}
+.load-more-app-and-tools__load-text{
+    color: var(--nav-font-color);
+}

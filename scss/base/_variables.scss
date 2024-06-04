@@ -1,0 +1,88 @@
+// Define variables for light and dark themes
+$nav-background-light:#FFFFFF;
+$primary-font-color-light:#000000;
+$nav-background-dark:#000000;
+$primary-font-color-dark:#FFFFFF;
+$primary-font-family: "Montserrat", sans-serif;
+$secondary-font-family:"Roboto", sans-serif;
+$aboutme-font-color-light:#2C2C2E;
+$aboutme-font-color-dark:#FFFFFFBD;
+$mycompany-font-color-light:#3040E5;
+$mycompany-font-color-dark:#FFFFFF;
+$intro-background-color-light:$primary-font-color-dark;
+$intro-background-color-dark:#050519;
+$social-icon-color-light:#000000;
+$social-icon-color-dark:#FFFFFF;
+$project-contanior-background-light:#F4F6FB;
+$project-contanior-background-dark:#2A2A36;
+$project-category-background-light:#F2F2F7;
+$project-category-background-dark:#282C34;
+$project-description-light:#2C2C2E;
+$project-description-dark:#D9D9D9;
+$tools-description-background-color-light:#2C2C2E;
+$tool-name-background-color-light:#000000;
+$tools-description-background-color-dark:#D9D9D9;
+$tool-name-background-color-dark:#FFFFFF;
+$seperator-color-light:#DEDEDE;
+$seperator-color-dark:#6F7279;
+$load-more-background-color-light:#F2F2F7;
+$load-more-background-color-light:#F2F2F7;
+$load-more-background-color-dark:#333B4A;
+$nav-bar-menu-font-color-light:#000000;
+$nav-bar-menu-font-color-dark:#FFFFFF;
+$nav-bar-menu-barckground-color-light:#F2F2F7;
+$nav-bar-menu-background-color-dark:#282C34;
+$footer-background-color-light:#F4F6FB;
+$footer-background-color-dark:#282C34;
+
+@mixin light-theme {
+  --nav-background:#{$nav-background-light};
+  --nav-font-color:#{$primary-font-color-light};
+  --primary-font-family:#{$primary-font-family};
+  --secondary-font-family:#{$secondary-font-family};
+  --hello-button-font-color:#{$primary-font-color-dark};
+  --aboutme-font-color:#{$aboutme-font-color-light};
+  --mycompany-font-color:#{$mycompany-font-color-light};
+  --intro-background-color:#{$intro-background-color-light};
+  --social-icon-color:#{$social-icon-color-light};
+  --project-contanior-background-color:#{$project-contanior-background-light};
+  --project-category-background:#{$project-contanior-background-light};
+  --project-description:#{$project-description-light};
+  --project-logo-contanior-background:#{$social-icon-color-dark};
+ --tool-name-color:#{$tool-name-background-color-light};
+ --tool-description-color:#{$tools-description-background-color-light};
+ --seperator-color:#{$seperator-color-light};
+ --load-more-background-color:#{$load-more-background-color-light};
+ --nar-bar-menu-font-color:#{$nav-bar-menu-font-color-light};
+ --nar-bar-menu-background-color:#{$nav-bar-menu-barckground-color-light};
+ --footer-background-color:#{$footer-background-color-light};
+
+}
+@mixin dark-theme {
+    --nav-background:#{$nav-background-dark};
+    --nav-font-color:#{$primary-font-color-dark};
+    --secondary-font-family:#{$secondary-font-family};
+    --primary-font-family:#{$primary-font-family};
+    --hello-button-font-color:#{$primary-font-color-dark};
+    --aboutme-font-color:#{$aboutme-font-color-dark};
+    --mycompany-font-color:#{$mycompany-font-color-dark};
+    --intro-background-color:#{$intro-background-color-dark};
+    --social-icon-color:#{$social-icon-color-dark};
+    --project-contanior-background-color:#{$project-contanior-background-dark};
+    --project-category-background:#{$project-category-background-dark};
+    --project-description:#{$project-description-dark};
+    --project-logo-contanior-background:#{$social-icon-color-dark};
+    --tool-name-color:#{$tool-name-background-color-dark};
+    --tool-description-color:#{$tools-description-background-color-dark};
+    --seperator-color:#{$seperator-color-dark};
+    --load-more-background-color:#{$load-more-background-color-dark};
+    --nar-bar-menu-font-color:#{$nav-bar-menu-font-color-dark};
+    --nar-bar-menu-background-color:#{$nav-bar-menu-background-color-dark};
+    --footer-background-color:#{$footer-background-color-dark};
+
+
+
+
+
+
+}

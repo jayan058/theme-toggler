@@ -1,0 +1,797 @@
+:root {
+  --nav-background:#FFFFFF;
+  --nav-font-color:#000000;
+  --primary-font-family:Montserrat, sans-serif;
+  --secondary-font-family:Roboto, sans-serif;
+  --hello-button-font-color:#FFFFFF;
+  --aboutme-font-color:#2C2C2E;
+  --mycompany-font-color:#3040E5;
+  --intro-background-color:#FFFFFF;
+  --social-icon-color:#000000;
+  --project-contanior-background-color:#F4F6FB;
+  --project-category-background:#F4F6FB;
+  --project-description:#2C2C2E;
+  --project-logo-contanior-background:#FFFFFF;
+  --tool-name-color:#000000;
+  --tool-description-color:#2C2C2E;
+  --seperator-color:#DEDEDE;
+  --load-more-background-color:#F2F2F7;
+}
+
+.dark-mode {
+  --nav-background:#000000;
+  --nav-font-color:#FFFFFF;
+  --secondary-font-family:Roboto, sans-serif;
+  --primary-font-family:Montserrat, sans-serif;
+  --hello-button-font-color:#FFFFFF;
+  --aboutme-font-color:rgba(255, 255, 255, 0.7411764706);
+  --mycompany-font-color:#FFFFFF;
+  --intro-background-color:#050519;
+  --social-icon-color:#FFFFFF;
+  --project-contanior-background-color:#2A2A36;
+  --project-category-background:#282C34;
+  --project-description:#D9D9D9;
+  --project-logo-contanior-background:#FFFFFF;
+  --tool-name-color:#FFFFFF;
+  --tool-description-color:#D9D9D9;
+  --seperator-color:#6F7279;
+  --load-more-background-color:#333B4A;
+}
+
+:root {
+  --nav-background:#FFFFFF;
+  --nav-font-color:#000000;
+  --primary-font-family:Montserrat, sans-serif;
+  --secondary-font-family:Roboto, sans-serif;
+  --hello-button-font-color:#FFFFFF;
+  --aboutme-font-color:#2C2C2E;
+  --mycompany-font-color:#3040E5;
+  --intro-background-color:#FFFFFF;
+  --social-icon-color:#000000;
+  --project-contanior-background-color:#F4F6FB;
+  --project-category-background:#F4F6FB;
+  --project-description:#2C2C2E;
+  --project-logo-contanior-background:#FFFFFF;
+  --tool-name-color:#000000;
+  --tool-description-color:#2C2C2E;
+  --seperator-color:#DEDEDE;
+  --load-more-background-color:#F2F2F7;
+}
+
+.dark-mode {
+  --nav-background:#000000;
+  --nav-font-color:#FFFFFF;
+  --secondary-font-family:Roboto, sans-serif;
+  --primary-font-family:Montserrat, sans-serif;
+  --hello-button-font-color:#FFFFFF;
+  --aboutme-font-color:rgba(255, 255, 255, 0.7411764706);
+  --mycompany-font-color:#FFFFFF;
+  --intro-background-color:#050519;
+  --social-icon-color:#FFFFFF;
+  --project-contanior-background-color:#2A2A36;
+  --project-category-background:#282C34;
+  --project-description:#D9D9D9;
+  --project-logo-contanior-background:#FFFFFF;
+  --tool-name-color:#FFFFFF;
+  --tool-description-color:#D9D9D9;
+  --seperator-color:#6F7279;
+  --load-more-background-color:#333B4A;
+}
+
+.contanior__short-intro {
+  align-items: center;
+  height: 812px;
+  padding-top: 70px;
+  padding-bottom: 158px;
+  display: flex;
+  flex-direction: column;
+  height: 584px;
+  gap: 56px;
+  background-color: var(--intro-background-color);
+}
+
+.short-intro__basic-information {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.basic-information__image-contanior {
+  height: 64px;
+  width: 64px;
+  align-self: center;
+}
+
+.basic-information__greeting {
+  font-family: var(--primary-font-family);
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: var(--nav-font-color);
+}
+
+.basic-information__my-role {
+  font-family: var(--primary-font-family);
+  font-weight: 800;
+  font-size: 60px;
+  text-align: center;
+  color: var(--nav-font-color);
+}
+
+.basic-information__about-me {
+  font-family: var(--primary-font-family);
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: var(--aboutme-font-color);
+  width: 50%;
+  align-self: center;
+}
+
+.short-intro__get-in-touch {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.get-in-touch__perfrom-actions {
+  display: flex;
+  width: 320px;
+  height: 40px;
+  gap: 29px;
+}
+
+.about-me__my-company {
+  color: var(--mycompany-font-color);
+  text-decoration: underline;
+}
+
+.hello-button {
+  height: 40px;
+  width: 167px;
+  border-radius: 43.21px;
+  background-color: #3040E5;
+  font-family: var(--secondary-font-family);
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: var(--hello-button-font-color);
+}
+
+.perform-action__download-cv {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.download-cv__download__prompt {
+  font-family: var(--secondary-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--nav-font-color);
+}
+
+.fa-download {
+  font-size: 25px;
+  color: var(--social-icon-color);
+}
+
+.get-in-touch__my-socials {
+  display: flex;
+  gap: 40px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fa-brands {
+  color: var(--social-icon-color);
+  size: 30px;
+  font-size: 25px;
+}
+
+:root {
+  --nav-background:#FFFFFF;
+  --nav-font-color:#000000;
+  --primary-font-family:Montserrat, sans-serif;
+  --secondary-font-family:Roboto, sans-serif;
+  --hello-button-font-color:#FFFFFF;
+  --aboutme-font-color:#2C2C2E;
+  --mycompany-font-color:#3040E5;
+  --intro-background-color:#FFFFFF;
+  --social-icon-color:#000000;
+  --project-contanior-background-color:#F4F6FB;
+  --project-category-background:#F4F6FB;
+  --project-description:#2C2C2E;
+  --project-logo-contanior-background:#FFFFFF;
+  --tool-name-color:#000000;
+  --tool-description-color:#2C2C2E;
+  --seperator-color:#DEDEDE;
+  --load-more-background-color:#F2F2F7;
+}
+
+.dark-mode {
+  --nav-background:#000000;
+  --nav-font-color:#FFFFFF;
+  --secondary-font-family:Roboto, sans-serif;
+  --primary-font-family:Montserrat, sans-serif;
+  --hello-button-font-color:#FFFFFF;
+  --aboutme-font-color:rgba(255, 255, 255, 0.7411764706);
+  --mycompany-font-color:#FFFFFF;
+  --intro-background-color:#050519;
+  --social-icon-color:#FFFFFF;
+  --project-contanior-background-color:#2A2A36;
+  --project-category-background:#282C34;
+  --project-description:#D9D9D9;
+  --project-logo-contanior-background:#FFFFFF;
+  --tool-name-color:#FFFFFF;
+  --tool-description-color:#D9D9D9;
+  --seperator-color:#6F7279;
+  --load-more-background-color:#333B4A;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.contanior {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.third-part__menu-button {
+  display: none;
+}
+
+.contanior__nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 88px;
+  align-items: center;
+  background-color: var(--nav-background);
+  color: var(--nav-font-color);
+}
+
+.third-part__black-face {
+  display: none;
+}
+
+.nav__first-part {
+  display: flex;
+  gap: 12px;
+}
+
+.first-part__biscut-image {
+  height: 50px;
+  width: 50px;
+}
+
+.first-part__biscut-text {
+  width: 98px;
+  height: 36px;
+  font-family: var(--primary-font-family);
+  font-weight: 600;
+  font-size: 22px;
+  align-self: flex-end;
+}
+
+.nav__second-part {
+  display: flex;
+  height: 40px;
+  gap: 56px;
+  font-family: var(--primary-font-family);
+  font-weight: 500;
+  font-size: 16px;
+  align-items: center;
+}
+
+:root {
+  --nav-background:#FFFFFF;
+  --nav-font-color:#000000;
+  --primary-font-family:Montserrat, sans-serif;
+  --secondary-font-family:Roboto, sans-serif;
+  --hello-button-font-color:#FFFFFF;
+  --aboutme-font-color:#2C2C2E;
+  --mycompany-font-color:#3040E5;
+  --intro-background-color:#FFFFFF;
+  --social-icon-color:#000000;
+  --project-contanior-background-color:#F4F6FB;
+  --project-category-background:#F4F6FB;
+  --project-description:#2C2C2E;
+  --project-logo-contanior-background:#FFFFFF;
+  --tool-name-color:#000000;
+  --tool-description-color:#2C2C2E;
+  --seperator-color:#DEDEDE;
+  --load-more-background-color:#F2F2F7;
+}
+
+.dark-mode {
+  --nav-background:#000000;
+  --nav-font-color:#FFFFFF;
+  --secondary-font-family:Roboto, sans-serif;
+  --primary-font-family:Montserrat, sans-serif;
+  --hello-button-font-color:#FFFFFF;
+  --aboutme-font-color:rgba(255, 255, 255, 0.7411764706);
+  --mycompany-font-color:#FFFFFF;
+  --intro-background-color:#050519;
+  --social-icon-color:#FFFFFF;
+  --project-contanior-background-color:#2A2A36;
+  --project-category-background:#282C34;
+  --project-description:#D9D9D9;
+  --project-logo-contanior-background:#FFFFFF;
+  --tool-name-color:#FFFFFF;
+  --tool-description-color:#D9D9D9;
+  --seperator-color:#6F7279;
+  --load-more-background-color:#333B4A;
+}
+
+.contanior__project-contanior {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--primary-font-family);
+  background-color: var(--project-contanior-background-color);
+}
+
+.project-contanior__main-contanior {
+  padding-left: 80px;
+  height: 650px;
+  display: flex;
+  width: 79.38%;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background-color: var(--intro-background-color);
+}
+
+.main-contanior__actual-project {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 60%;
+}
+
+.actual-project__project-category {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.project-category__my-category {
+  display: flex;
+  border-radius: 32px;
+  gap: 0px;
+  width: 160px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 0px;
+  background-color: var(--project-category-background);
+}
+
+.project-category__logo-and-name {
+  display: flex;
+  gap: 24px;
+}
+
+.logo-contanior__logo2 {
+  height: 25px;
+  width: 30px;
+}
+
+.logo-and-name__name {
+  align-self: center;
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--nav-font-color);
+}
+
+.project-category__category-picture1 {
+  position: relative;
+  left: -15px;
+}
+
+.actual-project__link-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.actual-project__link-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.link-wrapper__project-links {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.project-links__actual-link {
+  height: 29px;
+  width: 29px;
+}
+
+.about-project__short-description {
+  font-size: 18px;
+  color: var(--project-description);
+}
+
+.project-category__category-name {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--nav-font-color);
+}
+
+.about-project__short-description {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.project-contanior__image-contanior {
+  width: 65%;
+  height: 100%;
+}
+
+.img-left {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contanior__project-contanior {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-and-name__logo-contanior2 {
+  height: 48px;
+  width: 48px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  background-color: var(--project-logo-contanior-background);
+}
+
+.logo-contanior2__logo-text {
+  height: 9px;
+  width: 45px;
+}
+
+.project-category__category-picture2 {
+  position: relative;
+  left: -25px;
+}
+
+.project-category__category-picture3 {
+  position: relative;
+  left: -30px;
+  width: 17px;
+}
+
+.project-category__category-name2, .project-category__category-name3 {
+  position: relative;
+  left: -10px;
+}
+
+.project-links__actual-link--figma {
+  width: 20px;
+  height: 25px;
+}
+
+:root {
+  --nav-background:#FFFFFF;
+  --nav-font-color:#000000;
+  --primary-font-family:Montserrat, sans-serif;
+  --secondary-font-family:Roboto, sans-serif;
+  --hello-button-font-color:#FFFFFF;
+  --aboutme-font-color:#2C2C2E;
+  --mycompany-font-color:#3040E5;
+  --intro-background-color:#FFFFFF;
+  --social-icon-color:#000000;
+  --project-contanior-background-color:#F4F6FB;
+  --project-category-background:#F4F6FB;
+  --project-description:#2C2C2E;
+  --project-logo-contanior-background:#FFFFFF;
+  --tool-name-color:#000000;
+  --tool-description-color:#2C2C2E;
+  --seperator-color:#DEDEDE;
+  --load-more-background-color:#F2F2F7;
+}
+
+.dark-mode {
+  --nav-background:#000000;
+  --nav-font-color:#FFFFFF;
+  --secondary-font-family:Roboto, sans-serif;
+  --primary-font-family:Montserrat, sans-serif;
+  --hello-button-font-color:#FFFFFF;
+  --aboutme-font-color:rgba(255, 255, 255, 0.7411764706);
+  --mycompany-font-color:#FFFFFF;
+  --intro-background-color:#050519;
+  --social-icon-color:#FFFFFF;
+  --project-contanior-background-color:#2A2A36;
+  --project-category-background:#282C34;
+  --project-description:#D9D9D9;
+  --project-logo-contanior-background:#FFFFFF;
+  --tool-name-color:#FFFFFF;
+  --tool-description-color:#D9D9D9;
+  --seperator-color:#6F7279;
+  --load-more-background-color:#333B4A;
+}
+
+.contanior__application-and-tools {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  padding-top: 40px;
+  background-color: var(--intro-background-color);
+}
+
+.application-and-tools__header {
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--nav-font-color);
+}
+
+.app-and-tools-wrapper__all-of-my-top-row-tools, .app-and-tools-wrapper__all-of-my-bottom-row-tools {
+  display: flex;
+  gap: 40px;
+}
+
+.application-and-tools__app-and-tools-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.all-of-my-top-row-tools__indivisual-tools,
+.all-of-my-bottom-row-tools__indivisual-tools {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 25px;
+}
+
+.indivisual-tools__tool-image-and-name {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tool-image-and-name__image-contanior {
+  height: 68px;
+  width: 68px;
+  border-radius: 71px;
+  box-shadow: 3px 2px 24px 0px rgba(0, 0, 0, 0.0901960784);
+  background-color: #f4f6fb;
+}
+
+.image-contanior__tool-image {
+  position: relative;
+  top: 14px;
+  left: 17px;
+}
+
+.image-contanior-for-git-and-github__git-image {
+  height: 68px;
+  width: 68px;
+  border-radius: 71px;
+  box-shadow: 3px 2px 24px 0px rgba(0, 0, 0, 0.0901960784);
+  z-index: 2;
+  background-color: #f4f6fb;
+}
+
+.image-contanior-for-git-and-github__github-image {
+  height: 68px;
+  width: 68px;
+  border-radius: 71px;
+  box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.1098039216);
+  position: relative;
+  left: -29px;
+  background-color: #f4f6fb;
+}
+
+.tool-image-and-name__image-contanior-for-git-and-github {
+  display: flex;
+}
+
+.github-image, .git-image {
+  position: relative;
+  top: 14px;
+  left: 12px;
+}
+
+.github-image {
+  height: 38px;
+}
+
+.application-and-tools__app-and-tools-wrapper {
+  justify-content: center;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.tool-image-and-name__tool-name {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: var(--primary-font-family);
+  color: var(--tool-name-color);
+}
+
+.indivisual-tools__tool-description {
+  font-family: var(--primary-font-family);
+  padding-bottom: 20px;
+  padding-right: 20px;
+  color: var(--tool-description-color);
+}
+
+.app-and-tools-wrapper__seperator {
+  height: 1px;
+  background-color: var(--seperator-color);
+}
+
+.app-and-tools-wrapper__load-more-app-and-tools {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 40px;
+  border-radius: 43px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15.71px;
+  background-color: var(--load-more-background-color);
+  height: 44px;
+  align-items: center;
+}
+
+.load-more-app-and-tools__load-text {
+  color: var(--nav-font-color);
+}
+
+@media (max-width: 662px) {
+  .get-in-touch__perfrom-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+  .nav__second-part {
+    display: none;
+  }
+  .first-part__biscut-text {
+    display: none;
+  }
+  .third-part__black-face {
+    display: block;
+    height: 24px;
+    width: 24px;
+  }
+  .third-part__menu-button {
+    display: block;
+    height: 28px;
+    width: 78px;
+    border-radius: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav__third-part {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu-button__menu-text {
+    font-family: var(--primary-font-family);
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .first-part__biscut-image {
+    height: 36px;
+    width: 36px;
+  }
+  .link-wrapper__project-links {
+    gap: 30px;
+  }
+  .main-contanior__actual-project {
+    width: 90%;
+    padding-bottom: 130px;
+  }
+  .application-and-tools__header {
+    font-size: 24px;
+  }
+  .indivisual-tools__tool-description {
+    font-size: 14px;
+  }
+  .tool-image-and-name__tool-name {
+    font-size: 20px;
+  }
+  .contanior__nav {
+    width: 100%;
+  }
+  .project-2-image-contanior {
+    background-image: url("./../images/eventidmobile.png");
+    width: 100%;
+    height: 290px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project-3-image-contanior {
+    background-image: url("./../images/medicamobile.png");
+    width: 100%;
+    height: 290px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .app-and-tools-wrapper__all-of-my-top-row-tools {
+    flex-direction: column;
+  }
+  .app-and-tools-wrapper__all-of-my-bottom-row-tools {
+    flex-direction: column;
+  }
+  .project-contanior__main-contanior {
+    width: 100%;
+    padding-left: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1px;
+  }
+  .img-left {
+    display: none;
+  }
+  .project1-image-contanior {
+    width: 100%;
+    height: 290px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./../images/tukuternakimagemobile.png");
+  }
+  .logo-and-name__name {
+    font-size: 24px;
+  }
+  .about-project__short-description {
+    font-size: 14px;
+  }
+  .project-category__my-category {
+    position: relative;
+    top: -280px;
+  }
+  .get-in-touch__my-socials {
+    position: relative;
+    bottom: -100px;
+  }
+  .basic-information__greeting {
+    font-size: 16px;
+  }
+  .basic-information__my-role {
+    font-size: 24px;
+  }
+  .basic-information__about-me {
+    font-size: 14px;
+  }
+  .contanior__project-contanior {
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .position-adjust {
+    align-self: center;
+  }
+}/*# sourceMappingURL=mediaquery.css.map */

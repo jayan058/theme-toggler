@@ -1,0 +1,184 @@
+@import 'base/global';
+@import './introduction/introduction.scss';
+@import './navbar/navbar.scss';
+@import './projectsection/projectsection.scss';
+@import './tools-and-application/tools-and-application.scss';
+@import './footer/footer.scss';
+
+*{
+    margin: 0px;
+    padding: 0px;   
+    
+}
+@media(max-width:662px){
+    .get-in-touch__perfrom-actions{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .nav__second-part{
+        display: none;
+    }
+    .first-part__biscut-text{
+        display: none;
+    }
+    .third-part__black-face{
+        display: block;
+        height: 24px;
+        width: 24px;
+    }
+    .third-part__menu-button{
+        display: block;
+        height: 28px;
+        width: 78px;
+        border-radius: 29px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--nar-bar-menu-background-color);
+      
+    }
+    
+    .nav__third-part{
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu-button__menu-text{
+        color: var(--nar-bar-menu-font-color);
+        font-family: var(--primary-font-family);
+        font-weight: 500;
+        font-size: 14px;
+
+    }
+    .first-part__biscut-image{
+        height: 36px;
+        width: 36px;
+
+    }
+    .link-wrapper__project-links{
+        gap: 30px;
+    }
+    .main-contanior__actual-project {
+        width: 90%;
+        padding-bottom: 130px;
+       
+    }
+    .application-and-tools__header{
+        font-size: 24px;
+    }
+    .indivisual-tools__tool-description {
+        font-size: 14px;
+    }
+    .tool-image-and-name__tool-name{
+        font-size: 20px;
+    }
+    .contanior__nav{
+        width: 100%;
+    }
+    .project-2-image-contanior{
+        background-image: url('.././images/eventidmobile.png');
+        width: 100%;
+        height: 290px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .project-3-image-contanior{
+        background-image: url('.././images/medicamobile.png');
+        width: 100%;
+        height: 290px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .app-and-tools-wrapper__all-of-my-top-row-tools{
+        flex-direction: column;
+    } 
+    .app-and-tools-wrapper__all-of-my-bottom-row-tools{
+        flex-direction: column;
+    }
+    .project-contanior__main-contanior{
+        width: 100%;
+       padding-left: 0px;
+       height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        gap:1px
+    }
+   .img-left{
+    display: none;
+   }
+   .project1-image-contanior{
+    width: 100%;
+    height: 290px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./../images/tukuternakimagemobile.png');
+   }
+   .logo-and-name__name{
+    font-size: 24px;
+   }
+   .about-project__short-description{
+    font-size: 14px;
+   }
+   .project-category__my-category{
+    position: relative;
+   top: -280px;
+    
+  
+   }
+   .get-in-touch__my-socials{
+    position: relative;
+    bottom: -100px;
+   }
+   
+
+    .basic-information__greeting{
+        font-size: 16px;
+    }
+    .basic-information__my-role{
+             font-size: 24px;
+    } 
+    .basic-information__about-me{
+          font-size: 14px;
+    }
+    .contanior__project-contanior{
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+    }
+    .position-adjust{
+        align-self: center;
+    }
+    .footer-text__business-enquiry{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .last-hello-button{
+        align-self: flex-start;
+    }
+    .footer-text__get-in-touch{
+        font-size: 24px;
+       
+    }
+    .business-enquiry__business-enquiry-text{
+        font-size: 14px;
+    }
+    .footer__footer-text{
+        gap: 20px;
+    }
+  
+  
+    
+   
+}
+
+
+
+
