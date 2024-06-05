@@ -67,6 +67,15 @@
     position: relative;
     top: -10px;
     left: -10px;
+
 }
 
 
+.hover-effect{
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;    
+}
+.hover-effect:hover {
+    
+    transform: scale(1.1);
+}

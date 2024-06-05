@@ -19,6 +19,7 @@
   --nar-bar-menu-font-color:#000000;
   --nar-bar-menu-background-color:#F2F2F7;
   --footer-background-color:#F4F6FB;
+  --indivisual-tool-hover:rgb(231, 231, 231);
 }
 
 .dark-mode {
@@ -42,6 +43,7 @@
   --nar-bar-menu-font-color:#FFFFFF;
   --nar-bar-menu-background-color:#282C34;
   --footer-background-color:#282C34;
+  --indivisual-tool-hover:#333B4A;
 }
 
 .contanior__footer {

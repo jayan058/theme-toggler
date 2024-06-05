@@ -34,6 +34,9 @@ $nav-bar-menu-barckground-color-light:#F2F2F7;
 $nav-bar-menu-background-color-dark:#282C34;
 $footer-background-color-light:#F4F6FB;
 $footer-background-color-dark:#282C34;
+$indivisual-tools-hover-light:rgb(231, 231, 231);
+$indivisual-tools-hover-dark:#333B4A;
+
 
 @mixin light-theme {
   --nav-background:#{$nav-background-light};
@@ -56,6 +59,7 @@ $footer-background-color-dark:#282C34;
  --nar-bar-menu-font-color:#{$nav-bar-menu-font-color-light};
  --nar-bar-menu-background-color:#{$nav-bar-menu-barckground-color-light};
  --footer-background-color:#{$footer-background-color-light};
+ --indivisual-tool-hover:#{$indivisual-tools-hover-light};
 
 }
 @mixin dark-theme {
@@ -79,6 +83,7 @@ $footer-background-color-dark:#282C34;
     --nar-bar-menu-font-color:#{$nav-bar-menu-font-color-dark};
     --nar-bar-menu-background-color:#{$nav-bar-menu-background-color-dark};
     --footer-background-color:#{$footer-background-color-dark};
+    --indivisual-tool-hover:#{$indivisual-tools-hover-dark};
 
 
 

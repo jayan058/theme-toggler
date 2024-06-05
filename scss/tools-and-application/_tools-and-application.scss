@@ -27,13 +27,22 @@
 }
 .all-of-my-top-row-tools__indivisual-tools, 
 .all-of-my-bottom-row-tools__indivisual-tools{
+           border-radius: 40px;
            display: flex;
            flex-direction: column;
            justify-content: flex-start;
            gap: 25px;
-           
+           transition: background-color 0.3s ease, color 0.3s ease;
+           cursor: pointer; 
+           padding: 20px;  
        
            
+}
+.all-of-my-top-row-tools__indivisual-tools:hover, 
+.all-of-my-bottom-row-tools__indivisual-tools:hover{
+   
+
+    background-color:var(--indivisual-tool-hover);
 }
 .indivisual-tools__tool-image-and-name{
     display: flex;
@@ -109,6 +118,8 @@
     background-color: var(--seperator-color);
 }
 .app-and-tools-wrapper__load-more-app-and-tools{
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer; 
     width: 85%;
     display: flex;
     justify-content: center;
@@ -121,6 +132,10 @@
     background-color: var(--load-more-background-color);
     height: 44px;
     align-items: center;
+}
+.app-and-tools-wrapper__load-more-app-and-tools:hover{
+    background-color: var(--intro-background-color);
+
 }
 .load-more-app-and-tools__load-text{
     color: var(--nav-font-color);

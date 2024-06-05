@@ -11,6 +11,7 @@
     
 }
 .project-contanior__main-contanior{
+    cursor: pointer;
     padding-left:80px;
     height: 650px;
     display: flex;
@@ -19,6 +20,10 @@
     align-items: center;  
     gap:40px;
     background-color:var(--intro-background-color);
+}
+.project-contanior__main-contanior:hover{
+    background-color:var(--indivisual-tool-hover);
+    border-radius: 30px;
 }
 .main-contanior__actual-project{
     display: flex;
